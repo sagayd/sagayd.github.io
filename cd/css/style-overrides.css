@@ -1,0 +1,15 @@
+/* here in this showcase we use our own modified chroma syntax highlightning style;
+   if you want to use a predefined style instead:
+   - remove `markup.highlight.noClasses` from your config.toml
+   - set `markup.highlight.style` to a predefined style name in your config.toml
+   - remove the following `@import` of the self-defined chroma stylesheet */
+@import "chroma-learn.css";
+
+h1 {
+  text-transform: none;
+  font-weight: 400;
+  /*font-size: 3em;
+  /*font-variant: small-caps;*/
+  margin: 0rem 0 0.5rem 0; /* 0.85rem 0 1rem 0 pixels/16=1em*/
+}
+
